@@ -1,7 +1,7 @@
 .symbol {
 vertical-align: sub; 
 width: 50px; 
-height: 50px;
+height: 55px;
 } 
 
 .intro {
@@ -16,5 +16,7 @@ background-color:rgb(133, 145, 158);
 display: flex;
 align-items: center;
 }
-
+#role{
+text-decoration: underline;
+}
 
