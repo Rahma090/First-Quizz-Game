@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head style="background-color:rgb(133, 145, 158)">
-    <meta http-equiv="refresh" content="3">
     <meta name="Rahma" content="allergens">
     <meta name="description" content="Quizz game for allergens came from food">
     <title>Food Allergy Awareness Quiz</title>
@@ -9,9 +8,9 @@
 
   </head>
 <body>
-    <h1 id="bigTitle"> <img class="symbol" src="C:\Users\nader\Dropbox\My PC (LAPTOP-T53C6DOU)\Desktop\First Quizz Game - my project\First-Quizz-Game\images\symbol.png"> What do you know about Food Allergen?</h1>
+    <h1 id="bigTitle"> <img class="symbol" src="symbol.png"> What do you know about Food Allergen?</h1>
     <img class="intro"
-    src="C:\Users\nader\Dropbox\My PC (LAPTOP-T53C6DOU)\Desktop\First Quizz Game - my project\First-Quizz-Game\images\Main page.jpeg"
+    src="Main page.png"
   />
  <div id="starting">
     <p id="Welcome"><b>Welcome to the largest quiz community ! </b></p>
@@ -20,25 +19,19 @@
     <h2 id="introduction">¤ How to play ¤:</h2>
     <p id="role">Pick up your starting level:</p>
     
-    <button id="beginner" onClick="C:\Users\nader\Dropbox\My PC (LAPTOP-T53C6DOU)\Desktop\First Quizz Game - my project\First-Quizz-Game\Level-1-Quizz.html" target="_blank">Beginner Level</button>
-    
-    <div id ='quiz'></div>
-    <button id="submit">Get Results</button>
-    <div id="results"></div>
+    <button id="beginner" onclick="startQuiz('beginner')">Beginner Level</button>
+    <button class="result">Get Results</button>
     <br>
     <br>
 
-    <button id="intermediate" onClick="clickButton2()">Intermediate Level</button>
-    <div id ='quiz'></div>
-    <button id="submit">Get Results</button>
-    <div id="results"></div>
+    <button id="intermediate" onclick="startQuiz('intermediate')">Intermediate Level</button>
+    <button class="result">Get Results</button>
     <br>
     <br>
 
-    <button id="advanced" onClick="clickButton3()">Advanced Level</button>
-    <div id ='quiz'></div>
-    <button id="submit">Get Results</button>
-    <div id="results"></div>
+    <button id="advanced" onclick="startQuiz('advanced')">Advanced Level</button>
+    <button class="result">Get Result</button>
+    </script>
     <br>
     <br>
     <hr>

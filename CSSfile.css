@@ -3,13 +3,12 @@ vertical-align: sub;
 width: 50px; 
 height: 55px;
 } 
-
 .intro {
 vertical-align:centre; 
 width: 300px; 
 justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
 } 
-
 h1 {
 color:white;
 background-color:rgb(133, 145, 158);
@@ -20,3 +19,99 @@ align-items: center;
 text-decoration: underline;
 }
 
+#insideWindows{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center ;
+    align-items: center;
+    background-color: rgb(44, 146, 248);
+}
+.hide{
+    display: none;
+   }
+
+.container{
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius:5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    margin:20px;
+    padding:10px;
+}
+.buttonCorrect{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    margin:20px;
+    padding:10px;
+    --hue-correct:rgb(6, 143, 68);
+    background-color:var(--hue-correct);
+    color:white;
+}
+.buttonWrong{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    margin:20px;
+    padding:10px;
+    --hue-wrong:rgb(161, 14, 14);
+    background-color:var(--hue-wrong);
+    color:white;
+}
+#beginner{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    margin:20px;
+    padding:14px 24px;
+    background-color:rgb(250, 2, 118);
+    color:white;
+}
+#intermediate{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    margin:20px;
+    padding:14px 24px;
+    background-color:rgb(72, 117, 196);
+    color:white;
+}
+#advanced{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    margin:20px;
+    padding:14px 24px;
+    background-color:rgba(109, 4, 133, 0.662);
+    color:white;
+}
+.result{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    margin:20px;
+    padding:14px 24px;
+}
+#fda{
+    background-color:rgba(51, 180, 236, 0.977);
+    color:white;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display:none;
+}
+#startButton{
+    background-color:rgba(237, 249, 6, 0.826);
+    color:rgb(17, 17, 17);
+}
+#nextButton{
+    background-color:rgba(26, 249, 6, 0.968);
+    color:rgb(17, 17, 17);
+}
