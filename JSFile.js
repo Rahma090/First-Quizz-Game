@@ -104,7 +104,8 @@ var advancedQuestions =[
             {Text:"All the ubove.", correct: true },
             ]},
 ]
-var urlParameters = new URLSearchParams(window.location.search);var level = urlParameters.get('level')
+var urlParameters = new URLSearchParams(window.location.search)
+var level = urlParameters.get('level')
 
 var questions
 
@@ -132,7 +133,7 @@ document.getElementById("question-container").style.display = "block"
 
 var buttons = document.querySelectorAll(".button")
 for (var i = 0; i < buttons.length; i++) {
-var button = buttons[i];
+var button = buttons[i]
 button.style.display = "block"
 button.disabled = false
 }
